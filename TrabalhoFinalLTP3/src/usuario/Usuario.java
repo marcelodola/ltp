@@ -51,7 +51,7 @@ public class Usuario {
 				alterarCliente(Console.readLine("Informe o Cpf.: ").trim().replace(".", "").replace("-", ""));
 				break;
 			case 3:
-				//excluirCliente();
+				excluirCliente();
 				break;
 			case 4:
 				//consultarClienteCPF();
